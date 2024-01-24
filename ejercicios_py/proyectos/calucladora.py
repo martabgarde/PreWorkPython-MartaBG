@@ -16,12 +16,12 @@ def división (x, y):
 
 
 def calculadora ():
-  print ('¡Bienvenido a tu calculadora')
-  x = float(input('Introduce el primer número'))
-  operación = input('Introduce qué operación quieres realizar ')
-  y = float(input('Introduce el segundo número'))
+  print ('¡Bienvenido a tu calculadora!')
+  x = float(input('Introduce el primer número: '))
+  operación = input('Introduce qué operación quieres realizar: ')
+  y = float(input('Introduce el segundo número: '))
   if operación == 'suma':
-    return suma (x, y)
+    return print('El resultado de tu suma es: ')(suma (x, y))
   if operación == 'resta':
     return resta (x, y)
   if operación == 'multiplicación' or 'multiplicacion':
@@ -31,7 +31,7 @@ def calculadora ():
   else:
     print ('¡Operación invalida! Por favor, inténtalo de nuevo')
     
-print (calculadora)
+calculadora()
 
   
     
